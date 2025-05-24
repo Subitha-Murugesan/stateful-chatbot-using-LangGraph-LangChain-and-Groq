@@ -10,9 +10,9 @@ This notebook demonstrates how to build a simple **stateful chatbot using LangGr
 
 * Installs the packages:
 
-  * `langgraph`: For building dynamic, stateful computation graphs.
-  * `langsmith`: For tracing and debugging LangChain executions.
-  * `langchain`, `langchain_groq`, `langchain_community`: Core and integration libraries for LangChain, including Groq support.
+  * langgraph: For building dynamic, stateful computation graphs.
+  * langsmith: For tracing and debugging LangChain executions.
+  * langchain, langchain_groq, langchain_community: Core and integration libraries for LangChain, including Groq support.
 
 ---
 
@@ -27,8 +27,8 @@ os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"]="CourseLanggraph"
 ```
 
-* Loads environment variables using `dotenv`.
-* Sets up LangChain to trace execution under the project name `"CourseLanggraph"`.
+* Loads environment variables using dotenv.
+* Sets up LangChain to trace execution under the project name "CourseLanggraph".
 
 ---
 
